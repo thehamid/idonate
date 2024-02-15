@@ -1,0 +1,39 @@
+#idonate_form{
+    border: 1px solid #d5d5d5;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#idonate_form p{
+    display: flex;
+    flex-direction: column;
+}
+
+#idonate_form input{
+    padding:5px;
+    margin: 5px;
+}
+
+#idonate_form input[type=submit]{
+    background-color: #b406b2;
+    color: #000000;
+    border-radius: 5px;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#idonate_form input[type=submit]:hover{
+    background-color: #810580;
+    color: #ffffff;
+}
+
+#idonate_form_message{
+    background: #dedede;
+    border-radius: 5px;
+    padding: 5px;
+}
+#idonate_form_message .alert{
+    color: #bb1515;
+}
